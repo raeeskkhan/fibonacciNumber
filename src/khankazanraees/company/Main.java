@@ -12,6 +12,7 @@ public class Main {
         arr[1] = 1;
 
         for (int i = 2; i < n; i++) {
+            //F(n) = F(n-1) + F(n-2)
             arr[i] = arr[i - 1] + arr[i - 2];
         }
 
